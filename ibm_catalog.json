@@ -1,0 +1,11 @@
+{
+  "name": "Terraform Test",
+  "version": "1.0.0",
+  "flavors": [
+    {
+      "label": "Standard",
+      "name": "standard",
+      "working_directory": "flavors/standard"
+    }
+  ]
+}
