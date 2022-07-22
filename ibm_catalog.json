@@ -1,6 +1,6 @@
 {
   "name": "terraform_test",
-  "version": "3.5.1",
+  "version": "4.0.0",
   "flavors": [
     {
       "label": "Standard",
@@ -14,26 +14,6 @@
       ]
     },
     {
-      "label": "Quick Start",
-      "name": "quickstart",
-      "iam_permissions": [
-        {
-          "service_name": "aiopenscale",
-          "role_crns": ["crn:v1:bluemix:public:iam::::role:Operator"]
-        }
-      ]
-    },
-    {
-      "working_directory": "flavors/advanced",
-      "iam_permissions": [
-        {
-          "service_name": "apiconnect",
-          "role_crns": ["crn:v1:bluemix:public:iam::::serviceRole:Manager"]
-        }
-      ]
-    },
-    {
-      "name": "name_only",
       "iam_permissions": [
         {
           "service_name": "aiopenscale",
