@@ -5,6 +5,6 @@ variable "name" {
   default     = "world"
 }
 
-terraform {
-  required_version = "0.14"
+variable "TF_VERSION" {
+  default     = "0.13"
 }
