@@ -1,6 +1,14 @@
 {
   "name": "terraform_test",
   "version": "4.0.0",
+  "module_info": {
+    "works_with": [
+      {
+        "catalog_id": "12345",
+        "offering_name": "foo"
+      }
+    ]
+  },
   "flavors": [
     {
       "label": "Standard",
